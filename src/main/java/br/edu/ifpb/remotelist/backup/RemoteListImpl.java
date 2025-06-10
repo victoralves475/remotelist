@@ -1,4 +1,4 @@
-package br.edu.ifpb.remotelist;
+package br.edu.ifpb.remotelist.backup;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -17,7 +17,7 @@ public class RemoteListImpl extends UnicastRemoteObject implements RemoteList {
     private final ConcurrentMap<String, List<Integer>> lists = new ConcurrentHashMap<>();
     private final ReadWriteLock mapLock = new ReentrantReadWriteLock();
     private final Path logPath;
-    final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
+    public final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
     private final Gson gson = new Gson();
 
     public RemoteListImpl(Path logPath, Duration snapshotInterval) throws IOException {

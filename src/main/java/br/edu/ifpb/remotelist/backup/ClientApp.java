@@ -1,5 +1,7 @@
 package br.edu.ifpb.remotelist.backup;
 
+import br.edu.ifpb.remotelist.RemoteList;
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 

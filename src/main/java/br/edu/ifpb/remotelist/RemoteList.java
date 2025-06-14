@@ -1,4 +1,4 @@
-package br.edu.ifpb.remotelist.backup;
+package br.edu.ifpb.remotelist;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

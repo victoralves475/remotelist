@@ -2,7 +2,7 @@ package br.edu.ifpb.remotelist.controller;
 
 import br.edu.ifpb.remotelist.model.ListService;
 import br.edu.ifpb.remotelist.persistence.PersistenceManager;
-import br.edu.ifpb.remotelist.backup.RemoteList;
+import br.edu.ifpb.remotelist.RemoteList;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

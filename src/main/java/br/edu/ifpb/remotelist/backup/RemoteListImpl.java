@@ -1,5 +1,6 @@
 package br.edu.ifpb.remotelist.backup;
 
+import br.edu.ifpb.remotelist.RemoteList;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
